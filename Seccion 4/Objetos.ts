@@ -1,4 +1,8 @@
-// Objetos básicos
+/*!
+Objetos básicos
+asdas
+asdasd
+*/
 let flash = {
     nombre:"Barry Allen",
     edad:24,
