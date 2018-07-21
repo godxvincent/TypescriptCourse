@@ -1,10 +1,10 @@
 "use strict";
 // Tipos
-var batman = "Bruce";
+// let batman:string = "Bruce";
 var superman = "Clark";
 var existe = false;
 // Tuplas
-var parejaHeroes = [batman, superman];
+// let parejaHeroes:[string,string] = [batman,superman];
 var villano = ["Lex Lutor", 5, true];
 // Arreglos
 var aliados = ["Mujer Maravilla", "Acuaman", "San", "Flash"];

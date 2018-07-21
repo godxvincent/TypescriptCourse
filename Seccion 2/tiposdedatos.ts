@@ -13,9 +13,9 @@ if (avenger > villanos) {
 }
 
 // Tipo string.
-let batman:string = "Batman";
-let concat = `${batman.toUpperCase()} es el mejor superhéroe`;
-console.log(concat);
+// let batman:string = "Batman";
+// let concat = `${batman.toUpperCase()} es el mejor superhéroe`;
+// console.log(concat);
 
 // Tipo arreglos con algun tipo de dato.
 let arreglo:number[] = [1,2,3];

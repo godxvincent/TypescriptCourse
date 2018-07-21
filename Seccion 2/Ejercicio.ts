@@ -1,11 +1,11 @@
 // Tipos
-let batman:string = "Bruce";
+// let batman:string = "Bruce";
 let superman:string = "Clark";
 
 let existe:boolean = false;
 
 // Tuplas
-let parejaHeroes:[string,string] = [batman,superman];
+// let parejaHeroes:[string,string] = [batman,superman];
 let villano:[string, number, boolean] = ["Lex Lutor",5,true];
 
 // Arreglos

@@ -11,7 +11,26 @@
         <!-- <script src="Seccion 6/app.js" charset="utf-8"></script> -->
         <!-- <script src="Seccion 7/clases.js" charset="utf-8"></script> -->
         <!-- <script src="Seccion 8/interfaces.js" charset="utf-8"></script> -->
-        <script src="Seccion 9/namespaces.js" charset="utf-8"></script>
+        <!-- <script src="Seccion 9/namespaces.js" charset="utf-8"></script> -->
+        <script src="node_modules\systemjs\dist\system.js" charset="utf-8"></script>
+        <script>
+          // SystemJS.import('/js/main.js');
+          // URL documentación de SystemJS para asignar la url base de los modulos.
+          // https://github.com/systemjs/systemjs/blob/master/docs/config-api.md
+          SystemJS.import('/Seccion 10/Modulos.js');
+          SystemJS.config({
+                baseURL: '/Seccion 10',
+
+                packages: {
+                  'Validaciones': {
+                    main: 'numeros',
+                    defaultExtension: 'js'
+                  }
+                }
+
+          })
+        </script>
+        <!-- <script src="Seccion 10/Modulos.js" charset="utf-8"></script> -->
 
     </body>
 </html>

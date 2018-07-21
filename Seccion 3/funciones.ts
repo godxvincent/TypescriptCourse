@@ -30,7 +30,7 @@ console.log(nombreP2);
 // Parametros por defecto -> En javascript son opcionales, sin embargo no se puede hacer
 // en conjunto con los parametros opcionales.
 function nombreCompletoTres (nombre:string, apellido:string,
-                            capitalizado?:boolean = true): string {
+                            capitalizado?:boolean): string {
     if (capitalizado) {
         return `${capitalizar(nombre)} ${capitalizar(apellido)}`;
     } else {
@@ -66,14 +66,14 @@ function imprimir() {
 }
 
 let miFuncion : (x:number, y:number) => number;
-miFuncion = 10;
+// miFuncion = 10;
 // PAra controlar la priemra función se hace
 // let miFuncion : (x:number, y:number) => number
 miFuncion = suma;
 console.log(miFuncion(5,5));
 // let miFuncion : (x:string) => string
-miFuncion = saludar;
-console.log(miFuncion("Ricardo"));
+// miFuncion = saludar;
+// console.log(miFuncion("Ricardo"));
 // let miFuncion : () => void
-miFuncion = imprimir;
-miFuncion();
+// miFuncion = imprimir;
+// miFuncion();

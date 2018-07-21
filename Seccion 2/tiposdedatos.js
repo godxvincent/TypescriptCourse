@@ -13,9 +13,9 @@ else {
     console.log("ups!!!");
 }
 // Tipo string.
-var batman = "Batman";
-var concat = batman.toUpperCase() + " es el mejor superh\u00E9roe";
-console.log(concat);
+// let batman:string = "Batman";
+// let concat = `${batman.toUpperCase()} es el mejor superhéroe`;
+// console.log(concat);
 // Tipo arreglos con algun tipo de dato.
 var arreglo = [1, 2, 3];
 arreglo.push(123);
