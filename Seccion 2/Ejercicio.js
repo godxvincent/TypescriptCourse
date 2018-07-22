@@ -1,3 +1,4 @@
+"use strict";
 // Tipos
 // let batman:string = "Bruce";
 var superman = "Clark";

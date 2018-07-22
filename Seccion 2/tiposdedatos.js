@@ -1,3 +1,4 @@
+"use strict";
 // Tipo de dato boolean
 var esSuperman = true;
 // Tipo de dato numerico

@@ -1,3 +1,4 @@
+"use strict";
 // Interface basica
 function enviarMision(xmen) {
     console.log("Enviando a misión: " + xmen.nombre);

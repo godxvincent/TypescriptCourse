@@ -1,3 +1,4 @@
+"use strict";
 // Cree una interfaz para validar el auto (el valor enviado por parametro)
 function conducirBatimovil(auto) {
     auto.encender = true;

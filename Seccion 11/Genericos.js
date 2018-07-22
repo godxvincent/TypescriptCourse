@@ -1,3 +1,4 @@
+"use strict";
 // Funciones genericas
 function regresar(arg) {
     return arg;

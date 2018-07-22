@@ -1,3 +1,4 @@
+"use strict";
 var Validaciones;
 (function (Validaciones) {
     function validarFecha(fecha) {
