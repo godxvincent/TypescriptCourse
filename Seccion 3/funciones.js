@@ -1,4 +1,3 @@
-"use strict";
 // Definición del tipo de datos del retorno.
 var heroe2 = "Flash";
 function imprime_heroe() {

@@ -1,4 +1,3 @@
-"use strict";
 // Objetos
 var batimovil = {
     carroceria: "Negra",

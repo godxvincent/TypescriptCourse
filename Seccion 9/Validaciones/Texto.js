@@ -1,4 +1,3 @@
-"use strict";
 var Validaciones;
 (function (Validaciones) {
     function validarTexto(texto) {

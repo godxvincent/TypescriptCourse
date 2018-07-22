@@ -1,4 +1,3 @@
-"use strict";
 /// <reference path="Validaciones/Texto.ts"/>
 /// <reference path="Validaciones/Fechas.ts"/>
 var resultado = Validaciones.validarTexto("Barry Allen");

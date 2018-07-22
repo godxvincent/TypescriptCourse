@@ -1,4 +1,3 @@
-"use strict";
 /*!
 Objetos básicos
 asdas
