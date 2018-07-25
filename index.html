@@ -12,22 +12,32 @@
         <!-- <script src="Seccion 7/clases.js" charset="utf-8"></script> -->
         <!-- <script src="Seccion 8/interfaces.js" charset="utf-8"></script> -->
         <!-- <script src="Seccion 9/namespaces.js" charset="utf-8"></script> -->
+        <h1>Hola Mundo <small>saludos</small></h1>
+       <p>
+         Este es un texto
+       </p>
+       <button type="button" id="botAlerta">Click aquí</button>
         <script src="node_modules\systemjs\dist\system.js" charset="utf-8"></script>
         <script>
           // SystemJS.import('/js/main.js');
           // URL documentación de SystemJS para asignar la url base de los modulos.
           // https://github.com/systemjs/systemjs/blob/master/docs/config-api.md
           // SystemJS.import('/Seccion 10/Modulos.js');
-          SystemJS.import('/Seccion 12/Decoradores.js');
+          // SystemJS.import('/Seccion 12/Decoradores.js');
+          SystemJS.import('/Seccion 13/LibreriasTerceros.js')
           SystemJS.config({
-                baseURL: '/Seccion 10',
+              // BaseURL indica cual es la raiz del proyecto
+                baseURL: '/',
+                map : {
+                    "jquery" : "node_modules/jquery/dist/jquery.min.js",
+                    "sweetalert" : "node_modules/sweetalert/dist/sweetalert.min.js"
+                },
                 packages: {
                   'Validaciones': {
                     main: 'numeros',
                     defaultExtension: 'js'
                   }
-                }
-
+              }
           })
         </script>
         <!-- <script src="Seccion 10/Modulos.js" charset="utf-8"></script> -->
